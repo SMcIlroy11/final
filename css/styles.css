@@ -1,0 +1,108 @@
+/* Styles go here */
+body {
+  background-color: #63CEC2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  margin-top: 50px;
+  padding-top: 15px;
+  text-align: center;
+  color: #CCC;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+h3 {
+  color: #CCC;
+  text-align: center;
+  font-weight: normal;
+}
+h5 {
+  color: #CCC;
+
+}
+
+p{
+  text-align: center;
+  color: #CCC;
+  font-size: 50%;
+  margin-top: 40px;
+}
+
+.formContainer{
+  margin: 0 auto;
+  width: 40%;
+  height: 250px;
+  background-color: rgba(67,75,89,0.7);
+  border-radius: 10px;
+}
+.profileContainer{
+  margin: 0 auto;
+  width: 50%;
+  height: 300px;
+  background-color: rgba(67,75,89,0.7);
+  border-radius: 10px;
+}
+
+input {
+  display: block;
+  width: 80%;
+  height: 15px;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+button {
+  display: block;
+  width: 80%;
+  border-radius: 10px;
+  margin: 0 auto;
+  color: #F7F8F9;
+  height: 25px;
+    text-transform: uppercase;
+}
+
+button:hover {
+  color: #63CEC2;
+}
+
+a:hover {
+  color: #63CEC2;
+}
+
+.userInfo{
+  float:right;
+  margin-right: 30%;
+}
+.imageContainer{
+  float: left;
+}
+
+.clear{
+  clear: both;
+
+}
+
+.profile {
+  color: #CCC;
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+#imageID{
+  width: 40%;
+  margin-left:5%;
+}
+
+.profileClass {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.profileText{
+  color: #CCC;
+  font-size: 80%;
+  margin: -2px;
+  text-align: left;
+}
