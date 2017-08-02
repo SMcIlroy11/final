@@ -39,7 +39,7 @@ p{
 .profileContainer{
   margin: 0 auto;
   width: 50%;
-  height: 300px;
+  height: 350px;
   background-color: rgba(67,75,89,0.7);
   border-radius: 10px;
 }
@@ -70,12 +70,23 @@ a:hover {
   color: #63CEC2;
 }
 
+.secondContainer{
+  width: 40%;
+  height: 140px;
+
+
+}
+
 .userInfo{
   float:right;
-  margin-right: 30%;
+  width: 30%;
+  margin-left: 60%;
+
 }
 .imageContainer{
   float: left;
+
+  /*width: 50%;*/
 }
 
 .clear{
@@ -91,8 +102,10 @@ a:hover {
 }
 
 #imageID{
-  width: 40%;
+  width: 100%;
   margin-left:5%;
+  border-radius: 10px;
+  float: left;
 }
 
 .profileClass {
@@ -103,6 +116,7 @@ a:hover {
 .profileText{
   color: #CCC;
   font-size: 80%;
-  margin: -2px;
+  margin: 2px;
   text-align: left;
+
 }
